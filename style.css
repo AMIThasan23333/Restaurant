@@ -84,7 +84,6 @@ body{
 }
 
 .search-control{
-
     padding: 0 1rem;
     font-size: 1.1rem;
     font-family: inherit;
@@ -94,6 +93,48 @@ body{
     /* this for the round shape  */
     border-top-left-radius:2rem ;
     border-bottom-left-radius: 2rem;
+}
+
+.search-control::placeholder{
+
+    color: var(--tenne-tawny);
+
+}
+
+.search-btn{
+
+    width: 55px;
+    height: 55px;
+    font-size: 1.8rem;
+    background: var(--tenne-tawny-dark);
+    color: #fff;
+    border: none;
+    border-top-right-radius:2rem ;
+    border-bottom-right-radius: 2rem;
+
+    transition: all 0.4s linear;
+    --webkit-transition: all 0.4s linear;
+    --moz-transition: all 0.4s linear;
+    --ms-transition : all 0.4s linear;
+
+
+}
+
+
+.search-btn:hover{
+
+    background: var(--tenne-tawny);
+
+}
+
+.meal-result{
+
+    margin-top: 4rem;
+
+}
+
+#meal {
+    margin: 2.4rem 0;
 
 }
 
